@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2020-06-19 01:18:39 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

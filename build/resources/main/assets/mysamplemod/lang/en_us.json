@@ -1,0 +1,8 @@
+{
+    "item.mysamplemod.example_item": "Example Item",
+    "item.mysamplemod.test_item": "Test Item",
+
+    "block.mysamplemod.example_block": "Example Block",
+    "block.mysamplemod.example_rainbow_block": "Rainbow Block",
+    "itemGroup.mysamplemodtab": "MySampleModTab"
+}

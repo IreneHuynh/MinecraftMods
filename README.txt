@@ -1,3 +1,38 @@
+This is an open source mod that I am working on. 
+So far I have added colour textured boxes and some food items. 
+
+
+________________________________________
+Installation and Running the mod
+________________________________________
+1.) Download and install Java 8's current JDK and JRE
+2.) First make sure you have Minecraft Java version installed on your PC/MAC
+3.) Download and install Forge 1.15.2 this is the current version for the mod I am working on
+4.) Download this code and then click on RunClient this should Lauch Minecraft
+5.) Make sure that your launch settings are set to Forge 1.15.2 and run
+6.) Click on My sample mods (this is the title of my mods currently)
+7.) Have fun!
+
+
+________________________________________
+Adding to the mod and Jar file
+________________________________________
+Please refer up to step 6.
+
+1.) In terminal/commandline making enter to build the mod ./gradlew build
+2.) In the gradle folder there is a lib folder and inside there is your jar folder
+3.) Simply drag this jar folder into your mods folder into Mincraft forge 1.15.2
+4.) Have fun!
+
+
+
+
+These are the installation instructions when you first download the forge folder
+please refer to these instructions below if you get stuck. These are the orginal instructions
+for when you first build your mods. 
+
+________________ I don't own anything below this line_________
+
 -------------------------------------------
 Source installation information for modders
 -------------------------------------------

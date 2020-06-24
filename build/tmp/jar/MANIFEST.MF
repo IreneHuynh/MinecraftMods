@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: pokemonmon_V2 copy
+Implementation-Version: 1.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2020-06-24T02:48:37-0700
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

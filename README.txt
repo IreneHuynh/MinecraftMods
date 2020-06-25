@@ -14,8 +14,23 @@ ________________________________________
 6.) Then on Mac run ./gradlew genIntellijruns 
 7.) Then click on configurations and RunClient should be available 
 8.) Run the RunClient option and Minecraft should launch up
-6.) Click on Pokemon mods (this is the title of my mods currently)
-7.) Have fun!
+9.) Click on Pokemon mods (this is the title of my mods currently)
+10.) Have fun!
+
+
+
+________________________________________
+Jar file and adding more code
+________________________________________
+
+
+1.) After fallowing the steps above, go into the Build folder, then the libs folder
+2.) The modid is the mod file.
+3.) You can use this project as a template if you would like to build some mods too
+4.) Add your own mods onto of this project
+5.) run ./gradlew build to make the jar file
+6.) Have fun!
+
 
 
 These are the installation instructions when you first download the forge folder

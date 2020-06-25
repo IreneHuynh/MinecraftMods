@@ -33,6 +33,7 @@ public class ItemInit {
     public static final Item pig_item = null;
     public static final Item test_item = null;
     public static final Item pikachu_item = null;
+    public static final Item charmander_item = null;
 
     public static final Item helmet = null;
     public static final Item chest_plate = null;
@@ -42,7 +43,7 @@ public class ItemInit {
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName("pig_item"));
-        event.getRegistry().register(new Item(new Item.Properties().group(PokemonModItemGroup.instance).food(new Food.Builder().hunger(1).saturation(1.2f).effect(new EffectInstance(Effects.ABSORPTION, 6000, 5), 0.2f).build())).setRegistryName("test_item"));
+        event.getRegistry().register(new Item(new Item.Properties().group(PokemonModItemGroup.instance).food(new Food.Builder().hunger(1).saturation(1.2f).effect(new EffectInstance(Effects.ABSORPTION, 6000, 5), 0.2f).build())).setRegistryName("charmander_item"));
         event.getRegistry().register(new Item(new Item.Properties().group(PokemonModItemGroup.instance).food(new Food.Builder().hunger(1).saturation(1.2f).effect(new EffectInstance(Effects.ABSORPTION, 6000, 5), 0.2f).build())).setRegistryName("pikachu_item"));
 
         event.getRegistry().register(new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(PokemonModItemGroup.instance)).setRegistryName("helmet"));

@@ -1,15 +1,6 @@
 This is an open source mod that I am working on. 
+So far I have added colour textured boxes and some food items. 
 
-Finished task:
-1.) Creating food 
-2.) Creating boxes/loot_boxes
-3.) Creating items
-
-
-Current task: 
-1.) Making this mod pokemon themed
-2.) Adding more biomes
-3.) Adding more armour
 
 ________________________________________
 Installation and Running the mod
@@ -18,26 +9,13 @@ ________________________________________
 2.) First make sure you have Minecraft Java version installed on your PC/MAC
 3.) Download and install Forge 1.15.2 this is the current version for the mod I am working with
 4.) Download this code to your desktop
-5.) In Intellij click on OPEN OR IMPORT and click on the gradle.build of this folder and open it as a project
+5.) In Intellij click on OPEN OR IMPORT and click on the gradle.build of this folder
 	This step make take a few minutes while it downloads all the dependencies
 6.) Then on Mac run ./gradlew genIntellijruns 
-7.) Then click on add configurations, click on +, then click on Applications and under it, RunClient should be available 
+7.) Then click on configurations and RunClient should be available 
 8.) Run the RunClient option and Minecraft should launch up
-9.) Click on Pokemon mods (this is the title of my mods currently)
-10.) Have fun!
-
-
-________________________________________
-The Jar(mod file)
-________________________________________
-1.) Navigate to the build folder
-2.) Navigate to the libs folder
-3.) modid_1.0.jar is the mod file, just import into your Minecraft forge
-4.) If you would like to add onto this file just do steps 1-10
-then run ./gradlew build to build your mod
-
-If you do add onto this mod please send me an email and show me the 
-nice mods you have made! I always like to share ideas :)
+6.) Click on Pokemon mods (this is the title of my mods currently)
+7.) Have fun!
 
 
 These are the installation instructions when you first download the forge folder

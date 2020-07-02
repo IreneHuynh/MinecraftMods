@@ -1,5 +1,13 @@
 This is an open source mod that I am working on. 
-So far I have added colour textured boxes and some food items. 
+Completed:
+1.) box textures
+2.) lootboxes
+3.) food items
+4.) armour
+
+Working on:
+1.) biomes
+2.) tools
 
 
 ________________________________________

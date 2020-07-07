@@ -40,6 +40,11 @@ public class ItemInit {
     public static final Item legging = null;
     public static final Item boot = null;
 
+    public static final Item diamond_helmet = null;
+    public static final Item diamond_chest_plate = null;
+    public static final Item diamond_legging = null;
+    public static final Item diamond_boot = null;
+
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName("pig_item"));
@@ -52,11 +57,18 @@ public class ItemInit {
         event.getRegistry().register(new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.FEET, new Item.Properties().group(PokemonModItemGroup.instance)).setRegistryName("boot"));
 
 
+        event.getRegistry().register(new ArmorItem(ModArmorMaterial.DIAMOND, EquipmentSlotType.HEAD, new Item.Properties().group(PokemonModItemGroup.instance)).setRegistryName("diamond_helmet"));
+        event.getRegistry().register(new ArmorItem(ModArmorMaterial.DIAMOND, EquipmentSlotType.CHEST, new Item.Properties().group(PokemonModItemGroup.instance)).setRegistryName("diamond_chest_plate"));
+        event.getRegistry().register(new ArmorItem(ModArmorMaterial.DIAMOND, EquipmentSlotType.LEGS, new Item.Properties().group(PokemonModItemGroup.instance)).setRegistryName("diamond_legging"));
+        event.getRegistry().register(new ArmorItem(ModArmorMaterial.DIAMOND, EquipmentSlotType.FEET, new Item.Properties().group(PokemonModItemGroup.instance)).setRegistryName("diamond_boot"));
     }
 
 
     public enum ModArmorMaterial implements IArmorMaterial {
         RUBY(PokemonMod.MOD_ID + ":ruby", 5, new int[]{7, 9, 11, 7}, 420, SoundEvents.field_226142_fM_, 6.9F, () -> {
+            return Ingredient.fromItems(ItemInit.test_item);
+        }),
+        DIAMOND(PokemonMod.MOD_ID + ":diamond", 5, new int[]{7, 9, 11, 7}, 420, SoundEvents.field_226142_fM_, 6.9F, () -> {
             return Ingredient.fromItems(ItemInit.test_item);
         });
 

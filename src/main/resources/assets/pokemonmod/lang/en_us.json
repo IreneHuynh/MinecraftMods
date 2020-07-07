@@ -13,5 +13,10 @@
     "item.pokemonmod.helmet": "Helmet",
     "item.pokemonmod.chest_plate": "Chest Plate",
     "item.pokemonmod.legging": "Leggings",
-    "item.pokemonmod.boot":"Boots"
+    "item.pokemonmod.boot":"Boots",
+
+    "item.pokemonmod.diamond_helmet": "Diamond Helmet",
+    "item.pokemonmod.diamond_chest_plate": "Diamond Chest Plate",
+    "item.pokemonmod.diamond_legging": "Diamond Leggings",
+    "item.pokemonmod.diamond_boot":"Diamond Boots"
 }

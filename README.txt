@@ -1,13 +1,23 @@
 This is an open source mod that I am working on. 
 Completed:
 1.) box textures
+	-Orange Box
+	-Rainbow Box
 2.) lootboxes
+	-Sand loot
+	-Rainbow loot
+	-NOTE BOTH NEED TO BE HIT WITH THE PICKAXE
 3.) food items
-4.) armour
+	-Charmander food
+	-Pikachu food
+4.) armour 
+	-Diamond Armour
+	-Ruby Armour
 
 Working on:
 1.) biomes
 2.) tools
+	-Pokeball tool
 
 
 ________________________________________

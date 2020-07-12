@@ -13,6 +13,7 @@ Completed:
 4.) armour 
 	-Diamond Armour
 	-Ruby Armour
+	-Blue Armour
 
 Working on:
 1.) biomes
